@@ -4,7 +4,11 @@
 
 ## What is this?
 
-This is an example microfrontend repo demonstrating how to use [single-spa](https://single-spa.js.org). You can see the code running at https://react.microfrontends.app.
+This is an example microfrontend repo demonstrating how to use [single-spa](https://single-spa.js.org).
+
+This is a fork of the single-spa example repo that is running at https://react.microfrontends.app (and for which you can find the example code https://github.com/react-microfrontend/).
+
+The main purpose of this repo is to show how to tie in an ember application within the Single-Spa framework, particularly when _other_ applications are _not_ ember (in this case, all of the others are React).
 
 ## How does it work?
 
@@ -25,7 +29,7 @@ Whenever a pull request is merged to main, [CircleCI builds and deploys the proj
 Tutorial video: [youtube](https://www.youtube.com/watch?v=vjjcuIxqIzY&list=PLLUD8RtHvsAOhtHnyGx57EYXoaNsxGrTU&index=4) / [bilibili](https://www.bilibili.com/video/av83617789/)
 
 ```sh
-git clone https://github.com/react-microfrontends/root-config.git
+git clone https://github.com/ember-react-microfrontend/root-config.git
 cd root-config
 yarn install
 yarn start
