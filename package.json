@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "single-spa": "^5.9.1",
+    "single-spa-ember": "^0.2.0",
     "single-spa-layout": "^1.4.0"
   }
 }
